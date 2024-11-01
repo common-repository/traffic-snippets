@@ -1,0 +1,234 @@
+/*----------------- 
+Backend related CSS
+-----------------*/ 
+
+
+
+/* forms */
+.checkbox-status {
+	position: relative !important;
+}
+
+.custom-control-input:focus ~ 
+          .custom-control-label::before {
+                /* when the button is toggled off  it is still in focus and a violet border will appear */
+                border-color: #30ab4f !important;
+                /* box shadow is blue by default  but we do not want any shadow hence we have set all the values as 0 */
+                box-shadow:  0 0 0 0rem rgba(0, 0, 0, 0) !important;
+            }
+  
+            /*sets the background color of switch to violet when it is checked*/
+            .custom-control-input:checked ~ 
+          .custom-control-label::before {
+                border-color: #30ab4f !important;
+                background-color: #30ab4f !important;
+            }
+  
+            /*sets the background color of switch to violet when it is active*/
+            .custom-control-input:active ~ 
+          .custom-control-label::before {
+                background-color: #30ab4f !important;
+                border-color: #30ab4f !important;
+            }
+  
+            /*sets the border color of switch to violet when it is not checked*/
+            .custom-control-input:focus:
+          not(:checked) ~ .custom-control-label::before {
+                border-color: #30ab4f !important;
+            }
+
+.payload_textarea_wrap {
+	margin-left: 10px;
+	width: 100%;
+	xxmax-width: 700px;
+	padding: 30px;
+	background-color: #e3e5e2;
+	margin: 4px;
+}
+
+.payload_textarea_js {
+	width: 100%;
+    height: 120px;
+    padding: 4px;
+    margin: 5px;
+	margin-top: -1px;
+    border: 2px solid #8f165b;
+    background-color: #f8fff6;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #373a33;
+}
+
+.payload_title_js {
+	margin-bottom: -26px;
+    height: 15px;
+    background-color: #8f165b;
+    color: #c5bfbf;
+    margin-left: 10px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 150px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.payload_textarea {
+	width: 100%;
+    height: 120px;
+    padding: 4px;
+    margin: 5px;
+	margin-top: -1px;
+    border: 2px solid #1d2327;
+    background-color: #f8fff6;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #373a33;
+}
+
+.payload_title {
+	margin-bottom: -26px;
+    height: 15px;
+    background-color: #1d2327;
+    color: #c5bfbf;
+    margin-left: 10px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 150px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.general_textarea_wrap{
+	margin-left: 10px;
+    padding: 30px;
+    background-color: #d5dfeb;
+	width: 100%;
+	xxmax-width: 700px;	
+}
+
+.general_textarea_info {
+	width: 100%;
+    height: 80px;
+    padding: 4px;	
+	border-radius: 4px;
+}
+
+.general_input_info {
+	width: 100%;
+    max-width: 350px;	
+    padding: 4px;	
+	border-radius: 4px;	
+}
+
+
+/* action icons */
+.hook-delete-icon{
+	margin-left: 20px;
+	color: #4f4f4f;
+	cursor:pointer;
+}
+
+.hook-delete-icon:hover{
+	color: #cc0e00;
+}
+
+.hook-edit-icon{
+	margin-left: 20px;
+	color: #698a4d;
+	cursor:pointer;
+}
+
+.hook-edit-icon:hover{
+	color: #59b50b;
+}
+
+.campaign-view-icon{
+	margin-left: 20px;
+	cursor:pointer;
+}
+.campaign-view-icon:hover{
+	color: #59b50b;
+}
+
+.campaign-delete-icon{
+	margin-left: 20px;
+	color: #4f4f4f;
+	cursor:pointer;
+}
+
+.campaign-delete-icon:hover{
+	color: #cc0e00;
+}
+
+.campaign-edit-icon{
+	margin-left: 20px;
+	color: #698a4d;
+	cursor:pointer;
+}
+
+.campaign-edit-icon:hover{
+	color: #59b50b;
+}
+
+.stats-delete-icon{
+	margin-left: 20px;
+	color: #4f4f4f;
+	cursor:pointer;
+}
+
+.stats-delete-icon:hover{
+	color: #cc0e00;
+}
+
+.stats-view-icon{
+	margin-left: 20px;
+	cursor:pointer;
+}
+.stats-view-icon:hover{
+	color: #59b50b;
+}
+
+
+.formula-delete-icon{
+	margin-left: 20px;
+	color: #4f4f4f;
+	cursor:pointer;
+}
+
+.formula-delete-icon:hover{
+	color: #cc0e00;
+}
+
+.formula-edit-icon{
+	margin-left: 20px;
+	color: #698a4d;
+	cursor:pointer;
+}
+
+.formula-edit-icon:hover{
+	color: #59b50b;
+}
+
+
+/*  snippet rows */
+
+.start_snips {
+	background-color: #a1e7ff;
+    border-bottom: 2px solid #ababab;
+	
+}
+
+.regular_snips {
+	background-color: #f1f1f1;
+    xxborder-right: 5px solid #80deff;
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+}
+
+.finish_snips {
+	background-color: #a1e6ff;
+    border-top: 3px solid #b1b1b1;
+}
